@@ -1,11 +1,11 @@
 package com.aprendizaje.catsapp.cats_app;
 
-public class Dogs {
-    private String id;
-    private String url;
-    private String apiKey = "live_1ewFO5Kz36CIRGcQNWTJM7zvhCOaBjDaQS2Qahmu8jypwcwgkTmwmBCoB0qn8Bz2";
-    private String image;
+public class DogsFavoritos {
 
+    private String id;
+    private String image_id;
+    private String apiKey = "live_1ewFO5Kz36CIRGcQNWTJM7zvhCOaBjDaQS2Qahmu8jypwcwgkTmwmBCoB0qn8Bz2";
+    private Imagex image;
 
     public String getId() {
         return id;
@@ -15,12 +15,12 @@ public class Dogs {
         this.id = id;
     }
 
-    public String getUrl() {
-        return url;
+    public String getImage_id() {
+        return image_id;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
+    public void setImage_id(String image_id) {
+        this.image_id = image_id;
     }
 
     public String getApiKey() {
@@ -31,13 +31,11 @@ public class Dogs {
         this.apiKey = apiKey;
     }
 
-    public String getImage() {
+    public Imagex getImage() {
         return image;
     }
 
-    public void setImage(String image) {
+    public void setImage(Imagex image) {
         this.image = image;
     }
-
-
 }
